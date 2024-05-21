@@ -5,11 +5,10 @@ def telegram_parser(send_message_func=None, loop=None):
     '''Телеграм парсер'''
 
     # Параметры из my.telegram.org
-    api_id = <Твой api_id>
-    api_hash = <Твой api_hash>
-
+    api_id = 26427761
+    api_hash = '6d160a6667d27e2fcf509a0d993a5a82'
     # Канал источник новостей @prime1
-    channel_source = 'https://t.me/prime1'
+    channel_source = 'https://t.me/vlad_chatbot'
 
     # Сессия клиента telethon
     session = 'gazp'
